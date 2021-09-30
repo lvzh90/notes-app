@@ -1,0 +1,29 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "This is a CLI application that allows a user to manage notes",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "start:dev": "nodemon app.js",
+    "start:debug": "node inspect app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lvzh90/notes-app.git"
+  },
+  "author": "Linda Zapata <lvzh90@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lvzh90/notes-app/issues"
+  },
+  "homepage": "https://github.com/lvzh90/notes-app#readme",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "validator": "^13.6.0",
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
